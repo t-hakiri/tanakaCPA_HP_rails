@@ -1,17 +1,15 @@
 $(function () {
-  console.log("aaaaaaaaaaaaaaaaaaaaaa");
   var current;
   $.scrollify({
     section: ".box",
     interstitialSection: "footer",
     setHeights: false,
     scrollSpeed: 650, // スクロール時の速度
-    scrollbars: false,
+    scrollbars: true,
     before: function (i, box) {
       current = i;
       $(".pagenation .active").removeClass("active");
       $(".pagenation").find("a").eq(i).addClass("active");
-      console.log("aaaaaaaaaaa");
     },
     afterRender: function () {
       var pagenation = '<ul class="pagenation">';

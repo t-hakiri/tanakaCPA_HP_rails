@@ -1,0 +1,15 @@
+.wrap{
+  position: relative;
+}
+.header{
+  height: 60px;
+  position: fixed;
+  top: 0;
+  background-color: black;
+  color: white;
+  z-index: 999;
+}
+.footer{
+  // height: 100px;
+}
+
