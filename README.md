@@ -22,3 +22,5 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+yarn add bootstrap bootstrap-material-design jquery popper.js
