@@ -1,5 +1,5 @@
 $(function () {
-
+  console.log("aaaaaaaaaaaaaaaaaaaaaa");
   var current;
   $.scrollify({
     section: ".box",
@@ -11,6 +11,7 @@ $(function () {
       current = i;
       $(".pagenation .active").removeClass("active");
       $(".pagenation").find("a").eq(i).addClass("active");
+      console.log("aaaaaaaaaaa");
     },
     afterRender: function () {
       var pagenation = '<ul class="pagenation">';
