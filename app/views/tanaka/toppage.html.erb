@@ -1,21 +1,51 @@
-<h1>ここはトップページです</h1>
 
 <section class="box box1">
-  <%= render partial: "top" %>
 </section>
 <section class="box box2">
-  <%= render partial: "vision" %>
 </section>
 <section class="box box3">
-  <%= render partial: "greeting" %>
 </section>
 <section class="box box4">
-  <%= render partial: "support_for_venture_companies" %>
 </section>
 <section class="box box5">
-  <%= render partial: "business" %>
 </section>
 <section class="box box6">
-  <%= render partial: "company_profile" %>
 </section>
 
+
+<div class="main">
+  <section class="section section-blue js-section" data-section-name="section1">
+    <div class="section-content">
+      <%= render partial: "top" %>
+    </div>
+  </section>
+  <section class="section section-red js-section" data-section-name="section2">
+    <div class="section-content">
+      <%= render partial: "vision" %>
+    </div>
+  </section>
+  <section class="section section-blue js-section" data-section-name="section3">
+    <div class="section-content">
+      <%= render partial: "greeting" %>
+    </div>
+  </section>
+
+  <section class="section section-red js-section" data-section-name="section3">
+    <div class="section-content">
+      <%= render partial: "support_for_venture_companies" %>
+    </div>
+  </section>
+
+  <section class="section section-blue js-section" data-section-name="section3">
+    <div class="section-content">
+      <%= render partial: "business" %>
+    </div>
+  </section>
+
+  <section class="section section-red js-section" data-section-name="section3">
+    <div class="section-content">
+      <%= render partial: "company_profile" %>
+    </div>
+  </section>
+  <ul class="pager" id="js-pager"></ul>
+</div>

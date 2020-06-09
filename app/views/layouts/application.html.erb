@@ -19,8 +19,10 @@
   <script src="https://cdn.jsdelivr.net/npm/jquery-scrollify@1/jquery.scrollify.min.js"></script>
 
   <body>
-    <%= render partial: "header" %>
+    <header class="header">
+      <%= render partial: "header" %>
+    </header>
     <%= yield %>
-    <%= render partial: "footer" %>
+    <%# <%= render partial: "footer" %> %>
   </body>
 </html>
