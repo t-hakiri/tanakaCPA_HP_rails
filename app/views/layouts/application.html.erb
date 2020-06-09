@@ -19,11 +19,6 @@
   <script src="https://cdn.jsdelivr.net/npm/jquery-scrollify@1/jquery.scrollify.min.js"></script>
 
   <body>
-    <% flash.each do |key, value| %>
-      <div class="alert alert-<%= key %>">
-        <%= value.html_safe %>
-      </div>
-    <% end %>
     <header class="header">
       <%= render partial: "header" %>
     </header>
