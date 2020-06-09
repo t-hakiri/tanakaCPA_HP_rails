@@ -24,8 +24,10 @@
         <%= value.html_safe %>
       </div>
     <% end %>
-    <%= render partial: "header" %>
+    <header class="header">
+      <%= render partial: "header" %>
+    </header>
     <%= yield %>
-    <%= render partial: "footer" %>
+    <%# <%= render partial: "footer" %> %>
   </body>
 </html>
