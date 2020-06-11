@@ -5,14 +5,42 @@
   width: 100%;
 }
 .section-content {
-  max-width: 300px;
-  margin: 0 auto;
-  padding: 40px 60px;
   text-align: center;
 }
 
-.test1{
+.section1{
   background-image: url("/images/toppage_img1.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+  z-index: -999;
+}
+.section1_header__bg {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  // background-image: linear-gradient(#9437FF, #7A81FF);
+  background-image: url("/images/toppage_img2.jpg");
+  background-size: cover;
+  background-position: center;
+  transform: skewY(-30deg);
+  transform-origin: top left;
+  z-index: -999;
+}
+
+.section2{
+  background-image: url("/images/toppage_img3.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.test3{
+  background-image: url("/images/toppage_img3.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -62,33 +90,4 @@ p {
 }
 .pagenation a.active{
   background: #000;
-}
-
-
-.section1,
-.section2{
-  padding: 50px 30px;
-}
- 
-.section1 {
-  background-image: url("/images/apex.jpg");
-}
-.section2 {
-  position: relative;
-  z-index: 0;
-}
-.section2::after{
-  content: '';
-  position: absolute;
-  left:0;
-  top: 0;
- 
-  /*四角形を傾けます*/
-  transform: skewY(-6deg);
-  transform-origin: bottom left;
- 
-  z-index: -1;
-  width:100%;
-  height:100%;
-  background:#fff;
 }
