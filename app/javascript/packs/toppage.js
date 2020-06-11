@@ -11,7 +11,7 @@ var option = {
   },
   afterRender: function () {
     var pagenation = '<ul class="pagenation">';
-    $(".box").each(function (i) {
+    $(".section").each(function (i) {
       pagenation += "<li><a></a></li>";
     });
     pagenation += "</ul>";
@@ -30,7 +30,7 @@ $(function () {
 });
 $(window).on("resize", function () {
   if (current) {
-    var currentScrl = $(".box").eq(current).offset().top;
+    var currentScrl = $(".section").eq(current).offset().top;
     $(window).scrollTop(currentScrl);
   }
 });
