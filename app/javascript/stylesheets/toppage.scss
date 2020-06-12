@@ -19,6 +19,24 @@
 .section1_header__bg {
   position: absolute;
   top: 0;
+  bottom: 100px;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  // background-image: linear-gradient(#9437FF, #7A81FF);
+  background-image: url("/images/toppage_img2.jpg");
+  background-size: cover;
+  background-position: center;
+  transform: rotate(45deg);
+  // transform:skew(0deg, -10deg)
+  transform-origin: bottom;
+  z-index: -999;
+}
+
+.section1_header__bg2 {
+  position: absolute;
+  top: 0;
   bottom: 0;
   right: 0;
   left: 0;
