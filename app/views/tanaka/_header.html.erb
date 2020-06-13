@@ -1,8 +1,8 @@
 <!--Navbar-->
-<nav class="navbar navbar-expand-lg navbar-dark primary-color">
+<nav class="navbar navbar-expand-lg navbar-dark primary-color header">
 
   <!-- Navbar brand -->
-  <a class="navbar-brand" href="#">Navbar</a>
+  <%= link_to "HOME", root_path, data: {"turbolinks" => false}, class: "nav-link text-white" %>
 
   <!-- Collapse button -->
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
@@ -15,11 +15,6 @@
 
     <!-- Links -->
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home
-          <span class="sr-only">(current)</span>
-        </a>
-      </li>
 
       <!-- Dropdown -->
       <li class="nav-item dropdown">
@@ -44,7 +39,7 @@
 
       <li class="nav-item">
         <%= link_to contact_path, class: "nav-link active" do %>
-          <i class="fas fa-user-plus"> ベンチャー企業支援について</i>
+          <i class="fas fa-handshake"> ベンチャー企業支援について</i>
         <% end %>
       </li>
 
