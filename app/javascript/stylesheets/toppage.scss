@@ -3,6 +3,7 @@
 // ------------------------------
 .section {
   width: 100%;
+  padding-top: 60px;
 }
 .section-content {
   text-align: center;
@@ -17,8 +18,21 @@
   background-position: center;
   position: relative;
   // overflow: hidden;
-  z-index: -999;
 }
+
+.section1{
+  position:relative;
+}
+
+.section1 .test_link{
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .section1_header__bg {
   position: absolute;
   top: -70px;
@@ -34,7 +48,6 @@
 
   transform: skewY(-20deg);
   transform-origin: top left;
-  z-index: -999;
 }
 
 .top_title{
@@ -45,9 +58,14 @@
   position: fixed;
   top: 150px;
   line-height: 1.5em;
+  z-index: 999;
   span{
     padding-top: 2em;
   }
+}
+
+.top_content{
+  position: relative;
 }
 
 .section2{
