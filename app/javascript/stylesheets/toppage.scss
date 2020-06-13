@@ -23,31 +23,31 @@
 .section1{
   position:relative;
 }
-
-.section1 .test_link{
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.section1_header__bg {
-  position: absolute;
-  top: -70px;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  // background-image: linear-gradient(#9437FF, #7A81FF);
-  background-image: url("/images/toppage_img2.jpg");
-  background-size: cover;
-  background-position: center;
-
-  transform: skewY(-20deg);
-  transform-origin: top left;
+.split_section{
+  position: relative;
+  .split_section_bg1{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .split_section_bg2 {
+    position: absolute;
+    top: -70px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    // background-image: linear-gradient(#9437FF, #7A81FF);
+    background-image: url("/images/toppage_img2.jpg");
+    background-size: cover;
+    background-position: center;
+    transform: skewY(-20deg);
+    transform-origin: top left;
+  }
 }
 
 .top_title{
