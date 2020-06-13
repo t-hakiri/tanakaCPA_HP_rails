@@ -34,3 +34,7 @@ $(window).on("resize", function () {
     $(window).scrollTop(currentScrl);
   }
 });
+
+window.addEventListener('popstate', function(e) {
+    document.location.reload();
+});
