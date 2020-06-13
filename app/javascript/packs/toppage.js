@@ -35,6 +35,6 @@ $(window).on("resize", function () {
   }
 });
 
-window.addEventListener('popstate', function(e) {
-    document.location.reload();
+window.addEventListener("popstate", function (e) {
+  document.location.reload();
 });
