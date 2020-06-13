@@ -21,7 +21,6 @@
 }
 
 .section1{
-  position:relative;
 }
 .split_section{
   position: relative;
@@ -35,7 +34,7 @@
   }
   .split_section_bg2 {
     position: absolute;
-    top: -70px;
+    top: -15vh;
     bottom: 0;
     right: 0;
     left: 0;
@@ -70,6 +69,12 @@
 
 .section2{
   background-image: url("/images/toppage_img3.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.section3{
+  overflow: hidden;
+  background-image: url("/images/apex.jpg");
   background-size: cover;
   background-position: center;
 }
