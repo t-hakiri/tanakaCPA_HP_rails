@@ -11,4 +11,7 @@ class TanakaController < ApplicationController
     ContactMailer.send_mail(@name, @email, @subject, @body).deliver
     flash[:success] = 'メールを送信しました'
   end
+
+  def profile
+  end
 end
