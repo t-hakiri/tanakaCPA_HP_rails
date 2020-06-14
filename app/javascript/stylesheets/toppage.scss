@@ -45,8 +45,8 @@
     width: 100%;
     height: 100%;
   }
-  .split_section_bg1:hover{
-    background-color: red;
+  .split_section_bg1:hover::before{
+    background-color: rgba(0,0,0,0.7);
   }
   .split_section_bg1::before{
     /* 透過した黒を上から重ねるイメージ */
@@ -84,6 +84,9 @@
     bottom: 0;
     left: 0;
     content: ' ';
+  }
+  .split_section_bg2:hover::before{
+    background-color: rgba(0,0,0,0.7);
   }
 }
 .top_title{
