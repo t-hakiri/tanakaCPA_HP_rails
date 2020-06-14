@@ -2,45 +2,43 @@
 
 <div class="main">
   <h1 class="top_title">
-    田中公認会計士<br><span>税理士事務所</span>
-    <%= link_to "お問い合わせはこちら", contact_path, class: "btn btn-orange btn-rounded mx-0" %>
+    たなか公認会計士<br><span>税理士事務所</span>
   </h1>
-  <section class="section section-blue js-section section1" data-section-name="section1">
-
-    <a class="test_link" href="/contact"></a>
-    <a class="section1_header__bg" href="/profile"></a>
+  <section class="section js-section section1" data-section-name="section1">
     <div class="section-content">
       <%= render partial: "top" %>
     </div>
-
   </section>
-  <section class="section section-red js-section section2" data-section-name="section2">
+  <section class="section js-section section2" data-section-name="section2">
     <div class="section-content">
       <%= render partial: "vision" %>
     </div>
   </section>
-  <section class="section section-blue js-section" data-section-name="section3">
+  <section class="section js-section section3 split_section" data-section-name="section3">
+    <a class="split_section_bg1" href="/contact"></a>
+    <a class="split_section_bg2" href="/profile"></a>
     <div class="section-content">
       <%= render partial: "greeting" %>
     </div>
   </section>
 
-  <section class="section section-red js-section" data-section-name="section3">
+  <section class="section js-section section4" data-section-name="section4">
     <div class="section-content">
       <%= render partial: "support_for_venture_companies" %>
     </div>
   </section>
 
-  <section class="section section-blue js-section" data-section-name="section3">
+  <section class="section js-section section5 split_section" data-section-name="section5">
+    <a class="split_section_bg1" href="/contact"></a>
+    <a class="split_section_bg2 business_bg" href="/profile"></a>
     <div class="section-content">
       <%= render partial: "business" %>
     </div>
   </section>
 
-  <section class="section section-red js-section" data-section-name="section3">
+  <section class="section js-section section6" data-section-name="section6">
     <div class="section-content test">
       <%= render partial: "company_profile" %>
     </div>
   </section>
-  <ul class="pager" id="js-pager"></ul>
 </div>
