@@ -1,18 +1,10 @@
-<div class="container z-depth-1">
+<div class="container company_profile_wrap z-depth-1">
   <!--Section: Content-->
   <section class="dark-grey-text">
 
-    <div class="row pr-lg-5">
-      <div class="col-md-7 mb-4">
-
-        <div class="view">
-          <img src="https://mdbootstrap.com/img/illustrations/graphics(4).png" class="img-fluid" alt="smaple image">
-        </div>
-
-      </div>
-      <div class="col-md-5 d-flex align-items-center">
-        <div>
-          <h3 class="font-weight-bold mb-4">会社概要</h3>
+      <div class="d-flex align-items-center">
+        <div class="container-fluid">
+          <h1 class="font-weight-bold mb-4">会社概要</h3>
 
           <p class="font-weight-bold">事務所名</p>
           <p>田中公認会計士税理士事務所</p>
@@ -27,8 +19,11 @@
           <p class="font-weight-bold">Facebook</p>
           <hr>
 
-          <%= link_to "お問い合わせはこちら", contact_path, class: "btn btn-orange btn-rounded mx-0" %>
-
+          <%= link_to "お問い合わせはこちら", contact_path, class: "btn btn-orange btn-rounded company_btn" %>
+          <div id="map-container-section" class="z-depth-1-half map-container-section" style="height: 400px">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.395649004936!2d139.75064085108085!3d35.66725878010034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188becaeea9871%3A0xacbe974f4df533d7!2z44CSMTA1LTAwMDMg5p2x5Lqs6YO95riv5Yy66KW_5paw5qmL77yS5LiB55uu77yVIOWxseW8leODk-ODqw!5e0!3m2!1sja!2sjp!4v1457082885289" frameborder="0"
+              style="border:0" allowfullscreen></iframe>
+          </div>
         </div>
       </div>
     </div>

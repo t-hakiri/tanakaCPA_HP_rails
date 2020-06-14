@@ -128,7 +128,7 @@
     font-size: 1.3em;
   }
 }
-
+// section3
 .section3{
   overflow: hidden;
   background-image: url("/images/apex.jpg");
@@ -152,6 +152,96 @@
     }
   }
 }
+/////////////////////////////////////////////////////
+
+// section4
+.section4{
+  background-image: url("/images/apex.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.support_for_venture_wrap{
+  background-color: white;
+  opacity: 0.85;
+  h1{
+    padding-top: 1em;
+  }
+  h2{
+    padding-bottom:0.5em;
+  }
+  p{
+    font-size: 1.3em;
+    text-align: left;
+  }
+  .max-width{
+    max-width: 630px;
+  }
+  .li{
+    text-align:left;
+    font-size: 1.5em;
+  }
+}
+//////////////////////////////////////////////////////////////////////////////////////////////
+
+// section5
+.section5{
+  overflow: hidden;
+  background-image: url("/images/toppage_img1.jpg");
+  background-size: cover;
+  background-position: center;
+  .business_content{
+    position:relative;
+    .business_link1{
+      position: absolute;
+      top: 100px;
+      left: 60%;
+      color: white;
+      background-color: #28A6E0;
+    }
+    .business_link2{
+      position: absolute;
+      top: 400px;
+      left: 35%;
+      color: white;
+      background-color: #28A6E0;
+    }
+  }
+  .business_bg{
+    top: 20vh;
+    transform: skewY(15deg);
+  }
+}
+/////////////////
+
+// section6
+.section6{
+  background-image: url("/images/apex.jpg");
+  background-size: cover;
+  background-position: center;
+  .company_profile_wrap{
+    background-color: white;
+    opacity: 0.85;
+    h1{
+      padding-top: 1em;
+    }
+    h2{
+      padding-bottom:0.5em;
+    }
+    p{
+      font-size: 1.3em;
+    }
+    .company_btn{
+      margin-bottom: 2em;
+    }
+    .map-container-section{
+      width: 80%;
+      margin: 0 auto;
+      padding-bottom: 100px;
+    }
+  }
+}
+
+////////////////////////////////
 
 .test3{
   background-image: url("/images/toppage_img3.jpg");
@@ -190,7 +280,7 @@ p {
   padding: 20px;
   position: fixed;
   right: 0;
-  top: 50%;
+  top: 40%;
 }
 .pagenation li{
   list-style-type: none;
