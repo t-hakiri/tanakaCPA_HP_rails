@@ -47,6 +47,8 @@
   }
   .split_section_bg1:hover{
     background-image: url("/images/toppage_img1.jpg");
+    background-size: cover;
+    background-position: center;
   }
   .split_section_bg1::before{
     /* 透過した黒を上から重ねるイメージ */
@@ -68,7 +70,7 @@
     width: 100%;
     height: 100%;
     // background-image: linear-gradient(#9437FF, #7A81FF);
-    background-image: url("/images/toppage_img2.jpg");
+    background-image: url("/images/toppage_img2_mask.jpg");
     background-size: cover;
     background-position: center;
     transform: skewY(-20deg);
@@ -86,7 +88,11 @@
     content: ' ';
   }
   .split_section_bg2:hover{
-    background-image: url("/images/toppage_img3.jpg");
+    background-image: url("/images/toppage_img2.jpg");
+    background-size: cover;
+    background-position: center;
+    transform: skewY(-20deg);
+    transform-origin: top left;
   }
 }
 .top_title{
@@ -137,7 +143,7 @@
 // section3
 .section3{
   overflow: hidden;
-  background-image: url("/images/apex.jpg");
+  background-image: url("/images/toppage_img1_mask.jpg");
   background-size: cover;
   background-position: center;
   // .greeting_content{
